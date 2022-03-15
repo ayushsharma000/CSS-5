@@ -1,0 +1,125 @@
+body{
+    background-color: yellow;
+}
+.top{
+    font-weight: 600;
+    font-size: 30px;
+    text-align: center;
+}
+.main{
+    margin-left: 38vw;
+    margin-top: 40px;
+    position: absolute;
+    transition: all;
+    transition-delay: 0.4s;
+    transition-duration: 3s;
+}
+.main:hover{
+    margin-left: 25vw;
+}
+.one{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(0, 187, 0);
+    border: 2px solid black;
+    margin: 30px;
+    transition-property: all;
+    transition-duration: 3s;
+}
+.one:hover{
+    height: 100px;
+    width: 300px;
+}
+.two{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(0, 187, 0);
+    border: 2px solid black;
+    margin: 30px;
+    transition-property: all;
+    transition-duration: 3s;
+}
+.two:hover{
+    height: 300px;
+    width: 300px;
+}
+.three{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(0, 187, 0);
+    border: 2px solid black;
+    margin: 30px;
+    transition-property: all;
+    transition-duration: 3s;
+    transition-timing-function: initial;
+}
+.three:hover{
+    width: 300px;
+}
+.four{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(0, 187, 0);
+    border: 2px solid black;
+    margin: 30px;
+    transition: all;
+    transition-duration: 3s;
+    transition-timing-function: ease;
+}
+.four:hover{
+    width: 300px;
+}
+.five{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(0, 187, 0);
+    border: 2px solid black;
+    margin: 30px;
+    transition: all;
+    transition-duration: 3s;
+    transition-timing-function: ease-in;
+}
+.five:hover{
+    width: 300px;
+}
+.six{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(0, 187, 0);
+    border: 2px solid black;
+    margin: 30px;
+    transition: all;
+    transition-duration: 3s;
+    transition-timing-function: ease-out;
+}
+.six:hover{
+    width: 300px;
+}
+.seven{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(0, 187, 0);
+    border: 2px solid black;
+    margin: 30px;
+    transition: all;
+    transition-duration:3s;
+    transition-timing-function: ease-in-out;
+}
+.seven:hover{
+    width: 300px;
+}
+.a1{
+    display: flex;
+    margin-top: 165vh;
+    font-size: 28px;
+    margin-left: 45vw;
+    font-weight: 600;
+    color:brown;
+}
+.a2{
+    display: flex;
+    font-size: 28px;
+    margin-left: 45vw;
+    font-weight: 600;
+    color:brown;
+}
